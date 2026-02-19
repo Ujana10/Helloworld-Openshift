@@ -9,8 +9,4 @@ cd /tmp/src
 # Compile
 gcc helloworld.c -o helloworld
 
-# Move binary to a standard location inside the image
-mkdir -p /opt/app-root/src
-mv helloworld /opt/app-root/src/
-
 echo "Build complete."

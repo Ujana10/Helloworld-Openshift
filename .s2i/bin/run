@@ -3,4 +3,8 @@ set -e
 
 echo "Starting application..."
 
-exec /opt/app-root/src/helloworld
+# contains compiled executable
+cd /tmp/src
+
+# execute command
+./helloworld
